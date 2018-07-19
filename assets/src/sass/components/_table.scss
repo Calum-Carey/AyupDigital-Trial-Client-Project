@@ -1,0 +1,35 @@
+/* TABLE */
+
+/*
+  * "Most likely wont use this now" *
+
+  .sidebar__table {
+
+  font-size: 1rem;
+
+  td {
+    padding: 0.5em 1em 0.5em 0;
+  }
+
+  th {
+    padding: 0.5em 2em 0.5em 0;
+    text-align: left;
+
+    &:nth-child(2){
+
+      color: $black;
+      font-weight: $font_bold;
+
+    }
+  }
+
+  &__open {
+
+    color: $grey-light;
+    font-size: 14px;
+
+  }
+
+}
+
+*/

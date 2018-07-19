@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="179px" height="126px" viewBox="0 0 179 126" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="179" height="126"></rect>
+    </defs>
+    <g id="Task-3-5---Service-activities" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2.2.0-Service-inner---stacked,-labelled-extended" transform="translate(-734.000000, -1056.000000)">
+            <g id="Group" transform="translate(734.000000, 1056.000000)">
+                <rect id="Rectangle-2-Copy-8" fill="#FFFFFF" x="0" y="0" width="179" height="126"></rect>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask-Copy" fill="#FFFFFF" xlink:href="#path-1"></use>
+                <path d="M152.242604,20.5862533 C146.775148,36.058386 137.532544,43.7944524 124.514793,43.7944524 C104.988166,43.7944524 84.2899408,47.5579441 57.3431953,71.7070161 C30.3964497,95.8560881 30.3964497,112.478177 18.6804734,112.478177 C10.8698225,112.478177 0.976331361,115.091713 -11,120.318784 L0.715976331,132.236508 L179.970414,136 L187,43.7944524 L187,-2.30832146 C172.693187,-3.23055951 163.841116,-3.23055951 160.443787,-2.30832146 C157.046458,-1.3860834 154.31273,6.24544152 152.242604,20.5862533 Z" id="Mask-Copy-2" fill="#D8D8D8" opacity="0.789564732" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

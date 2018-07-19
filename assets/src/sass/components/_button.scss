@@ -1,0 +1,67 @@
+/* BUTTON */
+
+.btn {
+
+  position: relative;
+  display: inline-block;
+  background-color: $white;
+  color: $grey-dark;
+  // font-size: 1.3125rem;; // = to h3? MAYBE MAKE A VARIABLE?
+  line-height: 0.5rem; //changed to 0.5rem from 1rem
+  font-size: 1.125rem;
+  margin: 0.5em 0;
+  font-weight: $font_bold;
+  border: 2px solid $grey-dark;
+  border-radius: $base-margin*2;
+  padding: $base-margin*0.7 $base-margin;
+  text-align: center;
+  //trying to get buttons in the center
+  text-decoration: none;
+  transition: 0.1s all ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+
+    background: $grey;
+    color: $white;
+    text-decoration: none;
+
+  }
+
+  &--secondary {
+
+    background-color: $grey-dark;
+    color: $white;
+    border-radius: $base-margin*0.7;
+
+    &--lrg {
+      padding: 2em 3em;
+    }
+
+    &:after {
+
+      font-family: 'fontello';
+      content: '\e803';
+      padding-left: 1rem;
+
+    }
+
+    &:hover {
+
+      background: $grey;
+      color: $white;
+
+    }
+
+  }
+
+}
+
+#js-btn-expand {
+
+  &:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+}

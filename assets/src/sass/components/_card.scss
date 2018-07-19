@@ -1,0 +1,36 @@
+/* CARD */
+
+.card { //
+
+  @include breakpoint($break_tablet){
+    padding-left: $base-margin*0.2;
+  }
+
+  &--alt {
+
+      padding: $base-margin;
+      border-left: $base-margin solid $grey-light-op1;
+
+  }
+
+  &__line {
+    padding-top: $base-margin*0.4;
+    padding-bottom: $base-margin*0.4;
+    padding-right: $base-margin; 
+
+    &--lrg {
+      padding: $base-margin*1.5 0;
+      line-height: 3;
+    }
+
+  }
+
+  &--sml {
+    padding-top: $base-margin;
+  }
+
+  &--half {
+    padding: $base-margin*2 0;
+  }
+
+}

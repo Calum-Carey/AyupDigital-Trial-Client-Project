@@ -1,0 +1,356 @@
+/*
+ * -
+ * PARTIALS/TYPOGRAPHY
+ * -
+ */
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+
+/* [1] */
+
+// MUSEO FONT (FONT SQUIRREL)
+
+@font-face {
+    font-family: 'MuseoSans_500';
+    src: url('/assets/src/fonts/museo-font/MuseoSans_500-webfont.woff2') format('woff2'),
+         url('/assets/src/fonts/museo-font/MuseoSans_500-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* [2] */
+
+$font_primary: 'MuseoSans_500';
+$font_secondary: 'Open Sans', sans-serif;
+
+/* [3] */
+$font_light: 300;
+$font_regular: 500; //changed from 400 to 500
+$font_semi_bold: 600;
+$font_bold: 700;
+
+/* [4] */
+$base-font-size: 16px;
+$rhythm-unit: "rem";
+$default-rhythm-border-style: solid $white;
+
+/* [6] */
+html, button, input, select, textarea {
+  font-family: $font_primary;
+  font-weight: $font_regular;
+  -webkit-text-stroke: 1px transparent;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.35rem;
+
+}
+
+// My additions
+
+.center { //reconsider this.
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.line-height {
+  line-height: 2.5;
+}
+
+// my additions ^
+
+/* [7] */
+p, .p, li, .li {
+
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: $base-margin;
+  color: $grey-light;
+
+   &:last-child {
+    margin-bottom: 0;
+  }
+
+  strong {
+    font-weight: $font_bold;
+  }
+
+  &--underline {
+    text-decoration: underline; //my addition
+  }
+
+  // My additions //
+
+  &--default {
+    font-style: normal;
+  }
+
+  &--secondary {
+    color: black;
+  }
+
+  &--italic {
+    font-style: italic;
+  }
+
+  &--sm {
+    font-size: 0.875rem;
+    padding-right: 1.5em;
+  }
+
+  &--xs {
+    font-size: 0.75rem;
+  }
+
+  &--no-margin {
+    margin: 0;
+  }
+
+  // // // //
+
+}
+
+.xl-copy {
+  font-weight: $font_light;
+  font-size: 1.3125rem;
+  line-height: 1.75rem;
+
+  strong {
+    font-weight: $font_bold;
+  }
+}
+
+.lg-copy {
+  font-weight: $font_light;
+  font-size: 1.125rem;
+  line-height: 1.625rem;
+
+  strong {
+    font-weight: $font_bold;
+  }
+}
+
+.sm-copy {
+  font-size: 0.9375rem;
+  line-height: 1.4375rem;
+
+  strong {
+    font-weight: $font_bold;
+  }
+}
+
+.text-left {
+  text-align: left;
+
+  &--tablet {
+    text-align: left !important;
+  }
+
+  &--mobile {
+    text-align: left !important;
+  }
+}
+
+.text-center {
+  text-align: center;
+
+  &--tablet {
+    text-align: center !important;
+  }
+
+  &--mobile {
+    text-align: center !important;
+  }
+}
+
+.text-right {
+  text-align: right;
+
+  &--tablet {
+    text-align: right !important;
+  }
+
+  &--mobile {
+    text-align: right !important;
+  }
+}
+
+/* [8] */
+h1, h2, h3, h4 {
+  color: $black;
+  font-weight: $font_bold;
+  padding: 0.5rem 0 1rem 0; //changed to bottom removed top
+
+  &.white {
+    color: $white;
+  }
+}
+
+h5, h6 {
+  padding-bottom:  0.7rem;
+}
+
+h1, .h1 {
+  font-size: 3rem; //previously 2.25
+  line-height: 3.6rem; //Any rule to go by between font size/ line height?
+}
+
+h2, .h2 {
+  font-size: 2.25rem;
+  line-height: 2.125rem;
+
+  &--light {
+    font-weight: $font_light;
+  }
+}
+
+h3, .h3 { //default size, used the most
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+
+  &--light {
+    font-weight: $font_light;
+  }
+}
+
+h4, .h4 {
+  font-size: 1.1875rem;
+  line-height: 1.5625; //25 sketch height divded by default /16
+  font-weight: $font-regular;
+}
+
+h5, .h5 {
+  font-size: 1.125rem;
+  line-height: 1.1875rem;
+
+  &--light {
+    font-weight: $font_light;
+  }
+}
+
+h6, .h6 {
+  font-size: 1rem;
+  // line-height: TBA;
+
+
+}
+
+/* [9] */
+
+a, .a {
+  color: $grey-light; //changed from $black
+  outline: 0;
+  text-decoration: none;
+  cursor: pointer;
+
+  &--secondary {
+    color: $black;
+  }
+
+  &:hover {
+      text-decoration: underline;
+  }
+
+}
+
+.a--inverted {
+  text-decoration: underline;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+}
+
+// Easier, more effiecient way to code this? ^^
+
+/* [10] */
+
+.elipsis-overflow {
+  width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* [11] */
+strong, b {
+  font-weight: $font_bold;
+}
+
+em, i {
+  font-style: italic;
+}
+
+// My addition
+
+.spacing {
+  letter-spacing: 0.3em;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* [12] */
+hr {
+  margin: $base-margin 0;
+  height: 2px;
+  color: $black;
+}
+
+/* [13] */
+
+main {
+  ul {
+
+    color: $grey-light;
+    padding: $base-margin*0.5 0;
+
+    li {
+      position: relative;
+      display: inline-block; // changed from block
+      font-size: 1rem;
+      line-height: 1.5rem;
+      margin: 0;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+.li--no-bullet {
+
+  position: relative;
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding-left: $base-margin; // MAIN CHANGE - PADDING to remove bullet points
+  margin-bottom: $base-margin*0.5;
+  margin-left: 0.2em;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &:after {
+    content: '';
+    background-color: $grey-light;
+    position: absolute;
+    top: $base-margin*0.5;
+    left: 0;
+    display: block;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+  }
+
+}
+
+// HOW DO I AVOID DUPLICATION?! ^^
+
+/* [14] */ // My Additions

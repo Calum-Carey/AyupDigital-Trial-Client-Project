@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="474px" height="214px" viewBox="0 0 474 214" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="474" height="214"></rect>
+    </defs>
+    <g id="Task-3-5---Service-activities" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2.2.0-Service-inner---stacked,-labelled-extended" transform="translate(-38.000000, -680.000000)">
+            <g id="Rectangle-2" transform="translate(38.000000, 680.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" transform="translate(237.000000, 107.000000) scale(1, -1) translate(-237.000000, -107.000000) " xlink:href="#path-1"></use>
+                <g id="Icon/-Placeholder" mask="url(#mask-2)">
+                    <g transform="translate(236.500000, 106.500000) scale(-1, 1) translate(-236.500000, -106.500000) translate(144.000000, 14.000000)" id="Group">
+                        <g>
+                            <rect id="Rectangle" fill="#D8D8D8" x="0" y="0" width="185" height="185"></rect>
+                            <path d="M64.825511,57.2473861 C64.825511,48.3388176 57.6356458,41.1111111 48.7737191,41.1111111 C39.9117923,41.1111111 32.7219271,48.3388176 32.7219271,57.2473861 C32.7219271,66.1559546 39.9117923,73.3836612 48.7737191,73.3836612 C57.6356458,73.3836612 64.825511,66.1559546 64.825511,57.2473861 L64.825511,57.2473861 Z M150.435068,89.5199362 C141.368084,70.5893957 137.058575,52.3323139 115.656185,54.558007 C94.2537961,56.7837001 79.5396536,94.0662677 72.8514069,97.5880737 C66.1631603,101.10988 72.8514069,79.6588792 59.4749137,84.1411779 C46.0984204,88.6234765 37.247984,103.755164 32.7219271,111.03497 C28.1958703,118.314775 -15.4334486,120.570041 32.7219271,127.171245 C80.8773029,133.772448 130.337702,133.599517 150.435068,127.171245 C170.532433,120.742972 159.502052,108.450477 150.435068,89.5199362 Z" id="photo-icon-copy" fill="#FFFFFF" opacity="0.600000024"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

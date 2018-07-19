@@ -1,0 +1,39 @@
+/* HEADER */
+
+.header {
+  background: $white;
+  color: $grey-light;
+  overflow: hidden;
+
+  .logo {
+    display: block;
+    max-width: 120px;
+    height: auto;
+  }
+
+  .nav-trigger {
+    display: none;
+    float: right;
+    margin: $base-margin*0.35 0;
+    padding: 0;
+    border: none;
+    background: transparent;
+    width: auto;
+
+    &:focus {
+      outline: none;
+    }
+
+    .bar {
+      display: block;
+      width: 32px;
+      height: 5px;
+      margin-bottom: 5px;
+      background-color: $black;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
