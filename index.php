@@ -23,7 +23,7 @@
 
 		<header class="flex-container flex-col--12">
 
-		<!--content 8 col -->
+	<!--content 8 col -->
 
 			<div class="flex-col--8 flex-col--tablet--12">
 
